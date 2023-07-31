@@ -11,7 +11,7 @@ function ExpenseTotal() {
 	);
     return (
 			<div className='control__container control__expense__total'>
-				ExpenseTotal: {expenseTotalValue}
+				<p>ExpenseTotal: {expenseTotalValue}</p>
 			</div>
 		);
 }

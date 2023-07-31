@@ -35,7 +35,7 @@ function AddExpenseFrom(props) {
 					<input
 						required='required'
 						type='text'
-						class='form-control add-form'
+						className='form-control add-form'
 						id='name'
 						value={name}
 						placeholder='Add new expense'
@@ -46,7 +46,7 @@ function AddExpenseFrom(props) {
 					<input
 						required='required'
 						type='number'
-						class='form-control add-form'
+						className='form-control add-form'
 						id='cost'
 						value={cost}
 						placeholder='Cost'
@@ -55,7 +55,7 @@ function AddExpenseFrom(props) {
 				</div>
 				<div>
 					<div>
-						<button type='submit' class='btn btn-primary btn__size'>
+						<button type='submit' className='btn btn-primary btn__size'>
 							Save
 						</button>
 					</div>

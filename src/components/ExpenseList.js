@@ -28,7 +28,7 @@ function ExpenseList() {
 		<>
 			<input
 				type='text'
-				class='form-control mb-2 mr-sm-2 serch_form'
+				className='form-control mb-2 mr-sm-2 serch_form'
 				placeholder='Type to search...'
 				onChange={handleChange}
 			/>

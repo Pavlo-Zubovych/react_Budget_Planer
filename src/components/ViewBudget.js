@@ -3,7 +3,7 @@ import React from "react";
 function ViewBudget(props) {
 	return (
 		<>
-			<span>Budget: {props.budget}$ </span>
+			<span className="text-size">Budget: {props.budget}$ </span>
 			<button
 				id='budget__btn__size'
 				type='button'

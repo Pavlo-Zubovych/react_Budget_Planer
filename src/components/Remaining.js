@@ -18,7 +18,7 @@ function Remaining() {
 
     return (
 			<div className='control__container control__remaining'>
-				Remaining: {remaningValue}$
+				<p>Remaining: {remaningValue}$</p>
 			</div>
 		);
 }
