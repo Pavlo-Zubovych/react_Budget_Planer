@@ -17,10 +17,7 @@ function App() {
 				<Remaining />
 				<ExpenseTotal />
 			</div>
-			{/* <div className='add__expense__form'> */}
-				<AddExpenseFrom />
-			{/* </div> */}
-
+			<AddExpenseFrom />
 			<ExpenseLisr />
 		</AppProvider>
 	);
