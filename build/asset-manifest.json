@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.3c85f2e0.css",
-    "main.js": "/static/js/main.4ded846b.js",
-    "index.html": "/index.html",
-    "main.3c85f2e0.css.map": "/static/css/main.3c85f2e0.css.map",
-    "main.4ded846b.js.map": "/static/js/main.4ded846b.js.map"
+    "main.css": "/react_Budget_Planer/static/css/main.3c85f2e0.css",
+    "main.js": "/react_Budget_Planer/static/js/main.4ded846b.js",
+    "index.html": "/react_Budget_Planer/index.html",
+    "main.3c85f2e0.css.map": "/react_Budget_Planer/static/css/main.3c85f2e0.css.map",
+    "main.4ded846b.js.map": "/react_Budget_Planer/static/js/main.4ded846b.js.map"
   },
   "entrypoints": [
     "static/css/main.3c85f2e0.css",
