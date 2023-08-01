@@ -4,4 +4,4 @@
 - Реалізована адаптивність сайту.
 - В розробці збереження даних в LocalStorage.
 
-Ось посилання на [живу сторінку](https://www.linkedin.com/in/pavlo-zubovych-61a21821b/).
+Ось посилання на [живу сторінку](https://pavlo-zubovych.github.io/react_Budget_Planer/).
