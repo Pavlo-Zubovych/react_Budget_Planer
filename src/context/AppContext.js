@@ -1,10 +1,10 @@
 import React, { createContext } from "react";
-import { useReducer } from "react";
+import {useEffect, useReducer } from "react";
 
 import { v4 as uuidv4 } from "uuid";
 
 const AppReduser = (state, action) => {
-    console.log({ state });
+    console.log({ state });//
     switch (action.type) {
         case "SET_BUDGET":
             return {
@@ -36,7 +36,6 @@ const AppReduser = (state, action) => {
 
 const initialState = {
 	budget: 3000,
-
 	expenses: [
 		{ name: "bicycle", cost: 500, id: uuidv4() },
 		{ name: "macBookAir", cost: 1100, id: uuidv4() },
@@ -47,7 +46,13 @@ const initialState = {
 export const AppContext = createContext();
 
 function AppProvider(props) {
+
 	const [state, dispatch] = useReducer(AppReduser, initialState);
+
+	// analog componentDidMount
+	useEffect(() => {
+		console.log("init");
+	}, []);
 
 	return (
 		<AppContext.Provider
