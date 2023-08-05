@@ -49,7 +49,7 @@ function AppProvider(props) {
 
 	const [state, dispatch] = useReducer(AppReduser, initialState);
 
-	// analog componentDidMount
+	// analog componentDidMount.
 	useEffect(() => {
 		console.log("init");
 	}, []);
