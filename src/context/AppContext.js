@@ -51,7 +51,7 @@ function AppProvider(props) {
 
 	// analog componentDidMount.
 	useEffect(() => {
-		console.log("init");
+		console.log("init"); // забрати дані з ЛС.
 	}, []);
 
 	return (
